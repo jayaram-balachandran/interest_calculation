@@ -1,6 +1,27 @@
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 
 /**
+Pages Styles
+*/
+
+th {
+  background-color: chartreuse;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/**
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
@@ -39,7 +60,8 @@ main, /* 2 */
 menu,
 nav,
 section,
-summary { /* 1 */
+summary {
+  /* 1 */
   display: block;
 }
 
@@ -276,7 +298,8 @@ optgroup {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -286,7 +309,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
