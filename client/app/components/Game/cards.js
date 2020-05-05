@@ -129,10 +129,7 @@ async function main() {
       for (let value in player2Cards) {
         console.log(player2Cards[value].value.name, player2Cards[value].shape);
       }
-      //   console.log(splitCards2());
     } else if (Number(response2) === 4) {
-      //   console.log(splitCards4());
-
       let splitOfFourPlayersList = splitCards4();
       console.log("player 1 Cards : ");
 
